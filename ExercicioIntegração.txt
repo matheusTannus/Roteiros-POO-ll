@@ -1,0 +1,60 @@
+1) Teste de integração é uma forma de vc testar diferentes partes ou todas as partes do código, para verificar se o sistema esta rodando corretamente, podendo ser durante a escrita do código ou até mesmo no final, garantindo que não acha erros.
+
+2) Teste unitário verifica uma parte pequena do código isoladamente, já o Teste de integração verifica se várias partes do sistema funcionam juntas corretamente.
+
+3) Não, mas quando realizado automatizado ele te traz mais velocidade com a mesma precisão de quando não automatizado, sendo mais fácil de usar com repetição.
+
+4) Garantem que diferentes partes do sistema funcionem todas juntas corretamente, ajudando a identificar erros na comunicação entre módulos.
+
+5) - Erro de comunicação entre módulos, quando uma parte do sistema não envia ou recebe dados corretamente da outra parte, causando falhas.
+- Dados incorretos, quando um módulo envia dados em um formato diferente do esperado pelo outro, gerando erros ou resultados incorretos.
+
+6) - Identificação dos módulos: quais partes serão integradas e como se relacionam
+- Definição dos cenários de teste: determinar funcionalidade e interação serão validas
+- Criação dos casos de teste: estabelecer dados de entrada e resultados para cada cenário
+- Execução dos testes: aplicar os testes e monitorar comportamento do sistema 
+-  Validação dos testes: comparar os resultados obtidos com o esperado
+- Documentação: registrar o testes realizados, resultados e eventuais problema encontrado
+
+7) - Integração vertical: testa a comunicação entre camadas 
+- Integração horizontal: testa a comunicação entre módulos/serviços do mesmo nível 
+
+8) Teste de integração vertical 
+
+9) Integração de interfaces em Poo significa garantir que diferentes interfaces se comuniquem
+
+10) Porque ele faz testes em varias parte do código ao mesmo tempo, já unitário faz somente em uma parte
+
+11) a) Integração de serviços 
+b)  Caso PedidoService chama-se PedidoRepository, ai viraria integração de sistemas 
+
+12) Integração de sistemas, pois o sistema chama um sistema externo para se comunicar
+
+13) Integração de regressão: garante que alterações não comprometem funcionalidades existentes, fazendo validações do que já funcionava depois das alterações
+
+14) Integração de interface pois valida a comunicação entre as insterfaces do software, Ex: controller - api ou até mesmo frontend - backend
+
+15) Porque testes de integração são mais lentos 
+
+16) Pode ocasionar que os testes funcionem mas talvez partes não estão se comunicando por isso é bom ter teste de integração pois faz testes entre diferentes módulos
+
+17) Integração de serviços é um tipo de integração de sistemas, pois envolve o mesmo tipo se comunicando, já Integração de sistemas pode ser qualquer interação entre vários sistemas, não só serviços.
+
+18) - Integração vertical: comunicação entre camadas (Controller -> Service -> Banco)
+- Integração de sistemas: comunicação com a API de pagamento
+
+19) mockadas: é uma versão não real de componentes verdadeiros, usado só para teste
+reais: são os componentes reais
+o impacto é que mockado é mais rápido e controlado, já o real é que é  um teste mais verdadeiro do sistemas, porem lento 
+
+20) execução rápida, acha os erros mais cedo, maior confiabilidade
+
+21) Não, pois testes de integração não verificam tudo, eles não testam partes isoladas em detalhe nem cobrem todos os cenários.
+
+22) Porque a api pode não estar funcionando ou retornando dados errados
+
+23) A organização facilita na hora de descobrir os erros no código, para a correção mais rápida
+
+24) Não pois cada teste de integração tem seu objetivo diferente, já o, unitário testa parte isolada
+
+25) O maior desafio é a conexão com Api tornando os teste de integração mais difíceis 
